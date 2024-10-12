@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f2ea; 
+    color: #4b3c2a; 
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #4b3c2a; 
+}
+
+p {
+    line-height: 1.6;
+    color: #6d5f49; 
+}

@@ -1,0 +1,9 @@
+
+.App {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f2ea;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #4b3c2a; 
+}
