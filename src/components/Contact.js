@@ -9,9 +9,9 @@ function Contact() {
                 We would love to hear from you!
             </p>
             <ul>
-                <li>Email: contact@company.com</li>
-                <li>Phone: (123) 456-7890</li>
-                <li>Address: 123 Main St, City, Country</li>
+                <li>Email: cedric.palapuz@ciit.edu.ph</li>
+                <li>Phone: (63) 9991231234</li>
+                <li>Address: 94 Kamuning Rd, Quezon City, Philippines</li>
             </ul>
         </div>
     );
