@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Navigation.css';
+import { Link } from 'react-router-dom'; 
 
 function Navigation() {
     const [activeLink, setActiveLink] = useState('home');
@@ -12,31 +13,31 @@ function Navigation() {
         <nav>
             <ul>
                 <li>
-                    <a 
-                        href="#home" 
+                    <Link 
+                        to="/" 
                         className={activeLink === 'home' ? 'active' : ''} 
                         onClick={() => handleLinkClick('home')}
                     >
                         Home
-                    </a>
+                    </Link>
                 </li>
                 <li>
-                    <a 
-                        href="#about" 
+                    <Link 
+                        to="/about" 
                         className={activeLink === 'about' ? 'active' : ''} 
                         onClick={() => handleLinkClick('about')}
                     >
                         About Us
-                    </a>
+                    </Link>
                 </li>
                 <li>
-                    <a 
-                        href="#contact" 
+                    <Link 
+                        to="/contact" 
                         className={activeLink === 'contact' ? 'active' : ''} 
                         onClick={() => handleLinkClick('contact')}
                     >
                         Contact Us
-                    </a>
+                    </Link>
                 </li>
             </ul>
         </nav>
