@@ -5,14 +5,17 @@ function About() {
         <div className="about-container">
             <h1>About Us</h1>
             <p>
-                We are a company committed to providing excellent service and products to our customers.
-                Our journey started in [Year], and since then, we have been dedicated to innovation, quality,
-                and customer satisfaction. With a passionate team of experts, we aim to make a difference
-                in the industry.
+                Welcome to our website! We are dedicated to providing the best experience for our users. 
+                Our goal is to create a user-friendly platform that allows visitors to explore our services, 
+                learn about us, and easily get in touch.
             </p>
             <p>
-                Our mission is to deliver the best products, create meaningful relationships with our customers,
-                and continue growing as a trusted brand.
+                Our team is passionate about what we do, and we strive to bring you high-quality content 
+                and a seamless user experience. Whether you’re here to learn more about our services or 
+                reach out to us, we are here to assist you.
+            </p>
+            <p>
+                Thank you for visiting our website. We hope you find everything you need and more!
             </p>
         </div>
     );
